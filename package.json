@@ -1,0 +1,20 @@
+{
+  "name": "insomnia-plugin-google-jwt-auth",
+  "version": "0.1",
+  "author": "",
+  "description": "Google JWT Auth for Insomnia",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/udevurandom/insomnia-plugin-google-jwt-auth",
+  "bugs": {
+    "url": "https://github.com/udevurandom/insomnia-plugin-google-jwt-auth"
+  },
+  "main": "index.js",
+  "insomnia": {
+    "name": "google-jwt-auth",
+    "description": "Add Google auth header to requests"
+  },
+  "dependencies": {
+    "googleapis": "40.0.0",
+    "insomnia-url": "0.1.10"
+  }
+}
